@@ -7,7 +7,10 @@ export const Cards = ({ recipes, setRecipes }) => {
             {recipes.map((ele) => {
                 console.log(ele.recipe)
                 return <div className='cards'>
+                    <div className="cardheading">
                     <h1>{ele.recipe.label}</h1>
+
+                    </div>
                     <div className="orderlist">
                     <ol>
                             {ele.recipe.ingredientLines.map((ingredient,index )=> {
