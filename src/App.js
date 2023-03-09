@@ -5,7 +5,7 @@ import { Search } from './Components/Search';
 
 
 function App() {
-  const [searchvalue, setSearchvalue] = useState("")
+  const [searchvalue, setSearchvalue] = useState("briyani")
   const [inputvalue, setInputvalue] = useState(searchvalue)
   const [recipes, setRecipes] = useState([])
   useEffect(() => {
